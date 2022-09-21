@@ -7,12 +7,12 @@
 }
 
 :root {
-  --primary-color: #6070FF;
+  --primary-color: #6070ff;
   --secondary-color: #344563;
-  --third-color: #396DF2;
-  --abstract-color: #172B4D;
-  --simple-color: #EBEBFF;
-  --neutral-color: #7A869A;
+  --third-color: #396df2;
+  --abstract-color: #172b4d;
+  --simple-color: #ebebff;
+  --neutral-color: #7a869a;
   --normal-color: #000;
 }
 
@@ -20,7 +20,7 @@ html {
   font-size: 62.5%;
 }
 
-h1{
+h1 {
   font-size: 4rem;
   color: var(--abstract-color);
   font-weight: bold;
