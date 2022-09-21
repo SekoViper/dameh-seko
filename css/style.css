@@ -2,3 +2,10 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --primary-color: #6070FF;
+  --secondary-color: #344563;
+  --third-color: #396DF2;
+  --abstract-color: #172B4D;
+}
