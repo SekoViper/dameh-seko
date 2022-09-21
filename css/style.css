@@ -66,12 +66,14 @@ p {
   nav {
     padding: 14px 24px;
     background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .toggler {
     display: initial;
     margin: 0 24px;
-    float: right;
   }
 
   .toggler > div {
