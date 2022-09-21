@@ -14,6 +14,12 @@
   --simple-color: #ebebff;
   --neutral-color: #7a869a;
   --normal-color: #000;
+  --general-color: #f7f7f9;
+  --sample-color: #7f8cff;
+}
+
+body {
+  background-color: var(--general-color);
 }
 
 html {
@@ -58,7 +64,8 @@ p {
   }
 
   nav {
-    margin: 14px 24px;
+    padding: 14px 24px;
+    background-color: #fff;
   }
 
   .toggler {
@@ -73,5 +80,34 @@ p {
     height: 3px;
     width: 30px;
     margin: 5px;
+  }
+
+  .hero-container {
+    background-image: url(/img/header-shapes\ mobile.png);
+    height: 90vh;
+    border-bottom-left-radius: 20%;
+    background-color: #fff;
+  }
+
+  .content-container {
+    margin: 0 24px;
+    padding: 114px 0 12px 0;
+  }
+
+  .connect {
+    color: var(--sample-color);
+    padding: 12px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+
+  .social-icon {
+    margin: 0 24px;
+  }
+
+  .social-icon > a{
+    margin: 0 19px 0 0;
   }
 }
