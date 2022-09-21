@@ -47,7 +47,6 @@ p {
   line-height: 24px;
 }
 
-
 /* mobile view */
 @media only screen and (max-width: 750px) {
   .logo {
@@ -67,7 +66,7 @@ p {
     margin: 0 24px;
     float: right;
   }
-  
+
   .toggler > div {
     border-radius: 15%;
     background-color: var(--primary-color);
@@ -75,5 +74,4 @@ p {
     width: 30px;
     margin: 5px;
   }
-
 }
