@@ -46,3 +46,32 @@ p {
   font-size: 16px;
   line-height: 24px;
 }
+
+/* mobile view */
+@media only screen and (max-width: 750px) {
+  .logo {
+    font-size: 18px;
+    color: var(--primary-color);
+    font-weight: 700;
+    line-height: 20px;
+    text-decoration: none;
+  }
+
+  nav {
+    margin: 14px 24px;
+  }
+
+  .toggler {
+    display: initial;
+    margin: 0 24px;
+    float: right;
+  }
+
+  .toggler > div {
+    border-radius: 15%;
+    background-color: var(--primary-color);
+    height: 3px;
+    width: 30px;
+    margin: 5px;
+  }
+}
